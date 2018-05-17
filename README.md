@@ -66,7 +66,7 @@ git submodule update --init --recursive
 Be sure you have python2.7 as the default python. 3.x won't work, and it's not enough to use `--python=python2.7` as parameter to npm.
 
 ```
-npm install --build-from-source=realm
+npm install --build-from-source realm
 ```
 
  - On Windows you will need to setup the environment for node-gyp
